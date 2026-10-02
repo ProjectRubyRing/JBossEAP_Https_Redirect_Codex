@@ -1,0 +1,64 @@
+JBoss EAP 8.1 / ALB HTTPS リダイレクト対応資料 — 検証記録
+記録日: 2026年10月3日（日本時間）
+対象: このフォルダーの資料と実装例。EAP / ALB の実環境試験ではない。
+
+実施して成功した確認
+1. python -B .\deliverables\tools\validate_artifacts.py
+   PASS: 23項目。20シート、Meiryo UI、モノトーン、折り返し、行高、
+   A4横・印刷範囲・先頭固定、ZIPとしてのXLSX整合性、UTF-8/LF、
+   出典リンク等を検査。Markdownの本文・表・コード1,178項目がExcelに
+   表現されていることを照合。非空セル1,541。
+2. python -B .\deliverables\tools\render_preview.py
+   PASS: 20シートの実際のセル値・設定を使ったPillow描画。
+   インストール済みMeiryo UIを使用。検出された文字の領域超過は0件。
+   全体と冒頭抜粋の計40画像を作成。Excel本体の画面ではない。
+3. 目視確認
+   通信模式図、表紙、Undertow設定、起動中のCLI、出典の描画プレビューを
+   閲覧し、日本語、配色、表の文字、コード、主要な配置を確認した。
+   Excel本体による表示・印刷ページ割りの確認は含まない。
+4. PowerShell 5.1 の Parser.ParseFile
+   PASS: scripts/Test-HttpsUploadRedirect.ps1 の構文エラーは0件。
+   通信やアップロードは実行していない。
+5. Gitによる空白検査
+   git -c core.autocrlf=false -c core.safecrlf=false
+       -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+       diff --no-index --check
+   生成したテキストを空ディレクトリと比較。空白エラー出力なし。
+   no-index の終了コード1は、追加ファイルによる差分ありを表す。
+   cr-at-eolでWindowsのCRLFを改行として扱い、末尾の空白とは区別する。
+   作業フォルダーはGitリポジトリではないため、通常のgit diffは対象外。
+6. 自己レビュー
+   設定例、受信リスナーの選択、sendRedirectの条件、ロールバック、
+   起動前フック、再作成後の維持、出典の適用範囲、未確認事項を確認した。
+   CLIの成功例は期待値として記載し、実機で得た結果とは扱っていない。
+
+環境の制約により完了していない確認
+1. Excel本体のCOM検証
+   tools/inspect_excel.py からのExcel.Application起動で
+   HRESULT 0x80080005（CO_E_SERVER_EXEC_FAILURE / サーバー実行失敗）。
+   Excel本体での読み取り専用オープン、印刷・PDF出力は未完了。
+   構造検査とPillow描画を代替とした。利用者環境での表示確認が残る。
+2. POSIXシェルによる構文検証
+   Git同梱bashで configure-offline.sh の -n を試したが、
+   couldn't create signal pipe, Win32 error 5 で起動に失敗した。
+   この失敗により postconfigure.sh の bash -n は実行されていない。
+   両ファイルはPOSIX shの形式、引用、終了処理、CLIの受け渡しを静的確認。
+   使用するLinuxコンテナで sh -n を実施すること。
+
+未実施の実環境確認と、実施する手順
+1. jboss-cli接続・管理モデル確認・設定変更・reload
+   理由: 実環境の接続情報とEAPインストールが未提供。
+   手順: 資料08章。変更対象・保存状態・反映状態を実機で確認する。
+2. ALBターゲットグループ・SG・WAF等の実設定確認と変更
+   理由: 外部構成の取得・変更は実施していない。
+   手順: 資料06章。HTTP/HTTPS、公開Host、ヘッダの信頼条件を確認する。
+3. 独自フィルタのビルドと実行
+   理由: IBOWildflyUploadErrorFilterのソースとビルド定義が未提供。
+   手順: 資料05章・11章。相対sendRedirectかHTTP絶対URLかを切り分ける。
+4. サイズ超過アップロードと再作成試験
+   理由: 実URL、認証、上限値、コンテナイメージが未提供。
+   手順: 資料13章のT01〜T14、10章の再作成確認を実環境で実施する。
+
+詳細な機械検証結果: artifact_validation.json / preview_validation.json
+Excel本体の制約記録: native_excel_validation.json
+一式ZIPの整合性と収録一覧: package_validation.json（ZIPの外に作成）

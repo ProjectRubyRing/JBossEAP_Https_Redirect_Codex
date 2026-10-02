@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "renderer": "Pillow with installed Meiryo UI; not native Excel",
+  "records": [
+    {
+      "sheet": "00_表紙と目次",
+      "width": 1108,
+      "height": 1209,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "01_結論",
+      "width": 1108,
+      "height": 1843,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "02_事実と未確認",
+      "width": 1108,
+      "height": 1498,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "03_原理と通信図",
+      "width": 1108,
+      "height": 3083,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "04_歴史と背景",
+      "width": 1108,
+      "height": 1603,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "05_原因調査",
+      "width": 1108,
+      "height": 2227,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "06_ALBの確認",
+      "width": 1108,
+      "height": 2461,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "07_Undertow設定",
+      "width": 1108,
+      "height": 2460,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "08_稼働中のCLI",
+      "width": 1108,
+      "height": 3898,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "09_起動前の実装",
+      "width": 1108,
+      "height": 2686,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "10_恒久化",
+      "width": 1108,
+      "height": 1855,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "11_独自フィルタ",
+      "width": 1108,
+      "height": 2268,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "12_redirect_socket",
+      "width": 1108,
+      "height": 1289,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "13_検証手順",
+      "width": 1108,
+      "height": 2774,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "14_適用と切り戻し",
+      "width": 1108,
+      "height": 1981,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "15_疑問と誤解",
+      "width": 1108,
+      "height": 1765,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "16_用語集",
+      "width": 1108,
+      "height": 1209,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "17_実装ファイル",
+      "width": 1108,
+      "height": 1298,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "18_出典",
+      "width": 1108,
+      "height": 2476,
+      "detected_text_overflows": []
+    },
+    {
+      "sheet": "19_確認範囲",
+      "width": 1108,
+      "height": 1028,
+      "detected_text_overflows": []
+    }
+  ]
+}

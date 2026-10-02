@@ -1,0 +1,7 @@
+# OPTIONAL CHANGE. Only for container-enforced CONFIDENTIAL transport.
+# This does NOT repair an http URL hard-coded by a servlet filter.
+# Verify actual socket binding group and absence of this custom name first.
+batch
+/socket-binding-group=standard-sockets/socket-binding=alb-public-https:add(port=443,fixed-port=true)
+/subsystem=undertow/server=default-server/http-listener=default:write-attribute(name=redirect-socket,value=alb-public-https)
+run-batch

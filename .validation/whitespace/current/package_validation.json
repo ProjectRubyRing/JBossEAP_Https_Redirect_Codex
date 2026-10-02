@@ -1,0 +1,346 @@
+{
+  "status": "PASS",
+  "archive": "JBossEAP81_ALB_HTTPS_Redirect_Package.zip",
+  "size_bytes": 10311188,
+  "sha256": "be1a3bc4dc52a89cbd0fc40b04fea779248d9e3f9c5ea5d595c9add0a386eb3f",
+  "file_count": 66,
+  "checks": [
+    "ZIP CRC integrity",
+    "Required deliverables included",
+    "Generated caches excluded",
+    "Relative archive paths"
+  ],
+  "members": [
+    {
+      "path": "artifact_validation.json",
+      "size_bytes": 3058,
+      "sha256": "c62bd298b7adbd18e664c245cd979e37bb6263c2d9c03c282534e2a1fab31e98"
+    },
+    {
+      "path": "assets/https_flow.png",
+      "size_bytes": 112049,
+      "sha256": "1ae960f0019aaca2219d1bd59163d16f44d1fc670ca46a37c6111c3ed611e54a"
+    },
+    {
+      "path": "assets/previews/00_表紙と目次.png",
+      "size_bytes": 201216,
+      "sha256": "a85af40fb1fc2b46ac802246f0ba4f93dd8d7a2d9159c1c2feb3fbaf56540615"
+    },
+    {
+      "path": "assets/previews/00_表紙と目次_excerpt.png",
+      "size_bytes": 201216,
+      "sha256": "a85af40fb1fc2b46ac802246f0ba4f93dd8d7a2d9159c1c2feb3fbaf56540615"
+    },
+    {
+      "path": "assets/previews/01_結論.png",
+      "size_bytes": 302229,
+      "sha256": "8acb7f40b175c43f0475257f69b2eb80c87feefaf177c3a75982e43f8221207f"
+    },
+    {
+      "path": "assets/previews/01_結論_excerpt.png",
+      "size_bytes": 259922,
+      "sha256": "1867151504f42b94db7e6e444cd9fa6e173ff9d943320c5a988becdb23d70338"
+    },
+    {
+      "path": "assets/previews/02_事実と未確認.png",
+      "size_bytes": 227306,
+      "sha256": "4b744cba8e3d531cdccb49343e5f018ea553b2bf65e91d4c3275657195cb17d1"
+    },
+    {
+      "path": "assets/previews/02_事実と未確認_excerpt.png",
+      "size_bytes": 227306,
+      "sha256": "4b744cba8e3d531cdccb49343e5f018ea553b2bf65e91d4c3275657195cb17d1"
+    },
+    {
+      "path": "assets/previews/03_原理と通信図.png",
+      "size_bytes": 556458,
+      "sha256": "3cbba7637d940c16a95fcce41aab5a814e8b718c16a6a273c73d94ec375b21d4"
+    },
+    {
+      "path": "assets/previews/03_原理と通信図_excerpt.png",
+      "size_bytes": 323672,
+      "sha256": "7e08ac0b000bc017a2193578355b14e0c05462d5aad5a1fd62f5f87175336333"
+    },
+    {
+      "path": "assets/previews/04_歴史と背景.png",
+      "size_bytes": 297890,
+      "sha256": "98666596915b893a58fb5cf766bd046a5a43a223c735a4af9be1ef9bc9398ec8"
+    },
+    {
+      "path": "assets/previews/04_歴史と背景_excerpt.png",
+      "size_bytes": 297857,
+      "sha256": "71d1056ea62f370997f03acc11b0070afa83baf66d5078024c14081c26ebab89"
+    },
+    {
+      "path": "assets/previews/05_原因調査.png",
+      "size_bytes": 312914,
+      "sha256": "8d85231a6c5252d126cea4ccf2032887ced3fc0e72c903ef47f1035a29070bde"
+    },
+    {
+      "path": "assets/previews/05_原因調査_excerpt.png",
+      "size_bytes": 222741,
+      "sha256": "a7252fbf4f3fb2cd1f5e5bee9b75b961bcd272464f3a751c52884be9375f1b6d"
+    },
+    {
+      "path": "assets/previews/06_ALBの確認.png",
+      "size_bytes": 473209,
+      "sha256": "ccc6f56c6c7a866881af806c93f7d570639532ec04bbe11afdbb234361f016da"
+    },
+    {
+      "path": "assets/previews/06_ALBの確認_excerpt.png",
+      "size_bytes": 259112,
+      "sha256": "b54cb2fd7318b9e391938c1ec2e836def27cf6257031faa58f952394b0679a79"
+    },
+    {
+      "path": "assets/previews/07_Undertow設定.png",
+      "size_bytes": 414337,
+      "sha256": "f69ba99ee3da8eb9a8cbbabba9b8f7a7403b9ae24b49d0d7419de7c755f8bf95"
+    },
+    {
+      "path": "assets/previews/07_Undertow設定_excerpt.png",
+      "size_bytes": 278496,
+      "sha256": "7730ab2a186dd935d079465e234acf4363fdf07ad9c066bb77cb7a4f95e4fd50"
+    },
+    {
+      "path": "assets/previews/08_稼働中のCLI.png",
+      "size_bytes": 542712,
+      "sha256": "dcc2771bf7e90d43a51f290914cb48a30c8e7463a9fa2747b0c8109380f58af7"
+    },
+    {
+      "path": "assets/previews/08_稼働中のCLI_excerpt.png",
+      "size_bytes": 201931,
+      "sha256": "ed49322a4424e735eeb847308e7cfc7b1ad703dae1cb1d91e17addc2ab6cedec"
+    },
+    {
+      "path": "assets/previews/09_起動前の実装.png",
+      "size_bytes": 366603,
+      "sha256": "fb6de24cc70b83ba1ca5606be9b7ea6f1bbd85cb41dd7e97c96f4224bff548d5"
+    },
+    {
+      "path": "assets/previews/09_起動前の実装_excerpt.png",
+      "size_bytes": 224868,
+      "sha256": "3e1fba302d6637a8153f73f6cacd730bb360285730f8044e60b778021b4fe9db"
+    },
+    {
+      "path": "assets/previews/10_恒久化.png",
+      "size_bytes": 291901,
+      "sha256": "3afbb3dcd496fcb6f48bcfcc12dfcc0008d41083e7229a90c51a33488c2fa6ad"
+    },
+    {
+      "path": "assets/previews/10_恒久化_excerpt.png",
+      "size_bytes": 254965,
+      "sha256": "e6b353318d004a7fd15ce2fc600a8e15bbaf6e04889d2c34ca342efec09ac2c2"
+    },
+    {
+      "path": "assets/previews/11_独自フィルタ.png",
+      "size_bytes": 408197,
+      "sha256": "82e66774531c06250982970ac7309eb8621423748616264ddb3fa75e2c9c544f"
+    },
+    {
+      "path": "assets/previews/11_独自フィルタ_excerpt.png",
+      "size_bytes": 260302,
+      "sha256": "7232b76260db6aeeda01e70bd8d5bbeae1ccac9d3e8a4ec994b16d56cc35f04f"
+    },
+    {
+      "path": "assets/previews/12_redirect_socket.png",
+      "size_bytes": 210364,
+      "sha256": "8769ead24c6d14e71ab6c87e331c7c73cc7e1ed641b0c3d460f394efed57ed8d"
+    },
+    {
+      "path": "assets/previews/12_redirect_socket_excerpt.png",
+      "size_bytes": 210364,
+      "sha256": "8769ead24c6d14e71ab6c87e331c7c73cc7e1ed641b0c3d460f394efed57ed8d"
+    },
+    {
+      "path": "assets/previews/13_検証手順.png",
+      "size_bytes": 439445,
+      "sha256": "b00053d4737dc6df0fbc801bb5a36361ee78ee9c3524ac68f479cb67752b6c8d"
+    },
+    {
+      "path": "assets/previews/13_検証手順_excerpt.png",
+      "size_bytes": 241658,
+      "sha256": "af63d094d1bd3a156db9f63c6b2ffe03b9fe80bde25eeffdecdb31ea4563fd4d"
+    },
+    {
+      "path": "assets/previews/14_適用と切り戻し.png",
+      "size_bytes": 287464,
+      "sha256": "f21ced44e00e2c5cc01674936086cdabf5875359244a0bc24538d7ae7e9910e5"
+    },
+    {
+      "path": "assets/previews/14_適用と切り戻し_excerpt.png",
+      "size_bytes": 236424,
+      "sha256": "ca458665a532fdaac0546ef4b3e8c49ac98284c83490b53a3ab11cd6d396a9b8"
+    },
+    {
+      "path": "assets/previews/15_疑問と誤解.png",
+      "size_bytes": 268073,
+      "sha256": "7e37633791225d51527a7c53eda7f6be06d1ecf788d8791198cc4080a724e270"
+    },
+    {
+      "path": "assets/previews/15_疑問と誤解_excerpt.png",
+      "size_bytes": 225351,
+      "sha256": "9028be8f01f0f398c8af49f5d7e8e1d9c06404a78626c4308c81664ff9a0d144"
+    },
+    {
+      "path": "assets/previews/16_用語集.png",
+      "size_bytes": 204973,
+      "sha256": "c51765233b228434b3c0d1b2f9fe32612cc32c59aa3b35427a2f277669332838"
+    },
+    {
+      "path": "assets/previews/16_用語集_excerpt.png",
+      "size_bytes": 204973,
+      "sha256": "c51765233b228434b3c0d1b2f9fe32612cc32c59aa3b35427a2f277669332838"
+    },
+    {
+      "path": "assets/previews/17_実装ファイル.png",
+      "size_bytes": 186840,
+      "sha256": "34b6d0b93733cb6496871ee3ed99c7ae1042550cfcf97e46b3221b0761c1f8be"
+    },
+    {
+      "path": "assets/previews/17_実装ファイル_excerpt.png",
+      "size_bytes": 186840,
+      "sha256": "34b6d0b93733cb6496871ee3ed99c7ae1042550cfcf97e46b3221b0761c1f8be"
+    },
+    {
+      "path": "assets/previews/18_出典.png",
+      "size_bytes": 406650,
+      "sha256": "5f2cc61657ededabe08cc515f155820fa35eaf116902738101fb469c2e8338eb"
+    },
+    {
+      "path": "assets/previews/18_出典_excerpt.png",
+      "size_bytes": 262693,
+      "sha256": "04a460ff08dc2a079fa6a94378e501ab6b4193fb7a92e04d4b450d8fd4896716"
+    },
+    {
+      "path": "assets/previews/19_確認範囲.png",
+      "size_bytes": 183481,
+      "sha256": "e095e130497b72f548463008fccbd5ad9c4372210952ddde0f3448d400c6ccf5"
+    },
+    {
+      "path": "assets/previews/19_確認範囲_excerpt.png",
+      "size_bytes": 183481,
+      "sha256": "e095e130497b72f548463008fccbd5ad9c4372210952ddde0f3448d400c6ccf5"
+    },
+    {
+      "path": "build_manifest.json",
+      "size_bytes": 4542,
+      "sha256": "1ea7f1079df5df7474e8bd37f0f66520b71350ce84df4b9082d5b6e398707372"
+    },
+    {
+      "path": "JBossEAP81_ALB_HTTPS_Redirect_Report.md",
+      "size_bytes": 91690,
+      "sha256": "27a1923003e15ab2483ea00851bfcc6485c8853979d9c5acd0b6dc7ace21b362"
+    },
+    {
+      "path": "JBossEAP81_ALB_HTTPS_Redirect_Report.xlsx",
+      "size_bytes": 191696,
+      "sha256": "f235ed591d3624f33357607a3c2f3cfd86ca51739547b868d7d9d402e7974ab9"
+    },
+    {
+      "path": "native_excel_validation.json",
+      "size_bytes": 571,
+      "sha256": "c7ea29c785818a970c83109194804362319b544ff2252c1cabff6d95c4c3b0c7"
+    },
+    {
+      "path": "preview_validation.json",
+      "size_bytes": 2793,
+      "sha256": "f909e4be9707a6f3cb6d1349ce62da5667d70c153a6a90e5b743618a629b3c88"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2181,
+      "sha256": "3831cc1f15c4c80a285ea6c55946f0b4fe36ad1033cde05d653e89b6448ed229"
+    },
+    {
+      "path": "scripts/00_discover.cli",
+      "size_bytes": 433,
+      "sha256": "732e42cf911588e34b6a57572ac602b6cd3904db3edd710c4c3b7f64158b0c0a"
+    },
+    {
+      "path": "scripts/01_inspect_http.cli",
+      "size_bytes": 942,
+      "sha256": "5f02ff33324ee187f957cdc8c6338dc6f8624204f879d6f3872f833822801a0f"
+    },
+    {
+      "path": "scripts/02_snapshot.cli",
+      "size_bytes": 164,
+      "sha256": "ac602578d88f181d5f6d3b89cc2eced5646c02e13ba98d1f440354dfcd8e2f40"
+    },
+    {
+      "path": "scripts/10_enable_http_forwarding.cli",
+      "size_bytes": 651,
+      "sha256": "203774382426722e7351882c2b395f346112e801519f9b8269cec7ba9f135baf"
+    },
+    {
+      "path": "scripts/11_enable_https_forwarding.cli",
+      "size_bytes": 591,
+      "sha256": "e548865ceb6b74bffc1c12dc267915b42c9e9a3a00912317610b9b49a5da64e9"
+    },
+    {
+      "path": "scripts/20_reload_standalone.cli",
+      "size_bytes": 149,
+      "sha256": "a1cc6bfcec53c4a2eb970fe044bfd4190083c5d434990d3aa8a23ecb2f2bc8af"
+    },
+    {
+      "path": "scripts/30_rollback_http_false.cli",
+      "size_bytes": 408,
+      "sha256": "783a2f7ef0065833c3a9d8b6d89e1201f116a81befb4c3a013f17a1127e1ab48"
+    },
+    {
+      "path": "scripts/31_rollback_http_undefined.cli",
+      "size_bytes": 392,
+      "sha256": "a77470e7cddf0b96c9de3eeead0c5d5a9dd6bd19fa9fcc8c3ce2b7f9648dee8c"
+    },
+    {
+      "path": "scripts/40_optional_redirect_socket_443.cli",
+      "size_bytes": 456,
+      "sha256": "fb8faa77c3c378580de0d6d52711e99b3ea7e3e3e7240ebeb29156cc9b94a263"
+    },
+    {
+      "path": "scripts/configure-offline.sh",
+      "size_bytes": 1671,
+      "sha256": "7e73aace2a5da6d534ef593c230d42d9e7c7c301ccffcbd94559da175b1f0b3a"
+    },
+    {
+      "path": "scripts/postconfigure.sh",
+      "size_bytes": 255,
+      "sha256": "db02c734df2826d553e6f99b271c2f4bcac4fb95084d40f4a1818a8f7de1e404"
+    },
+    {
+      "path": "scripts/Test-HttpsUploadRedirect.ps1",
+      "size_bytes": 3447,
+      "sha256": "cc278045df00b7e108e34bbe28772745ea9189c2c80ce246edbdc208c19c016d"
+    },
+    {
+      "path": "sources.json",
+      "size_bytes": 5566,
+      "sha256": "79d25d2c68395292345133c77505b8df99016e889bff2c65b39cd3c6212c59a5"
+    },
+    {
+      "path": "tools/build_report.py",
+      "size_bytes": 18256,
+      "sha256": "9f23dec2ded679a312ec32cddb7af3107efc173fce2a9eddf9e0462d7a8bf06c"
+    },
+    {
+      "path": "tools/inspect_excel.py",
+      "size_bytes": 3213,
+      "sha256": "1164fb84c13a2a1b3f4be591f27fb50aceff82dd154ed671bdedb301af2372cf"
+    },
+    {
+      "path": "tools/render_preview.py",
+      "size_bytes": 4540,
+      "sha256": "e7ff3d57053f7b5a48784f9be8933586596c909bda13b965322dda4c5c9b2085"
+    },
+    {
+      "path": "tools/validate_artifacts.py",
+      "size_bytes": 5886,
+      "sha256": "abc918d6f3aa7f9192a85c08effbb39b0763b735c7673c92d9748a4f79ec3688"
+    },
+    {
+      "path": "validation_results.txt",
+      "size_bytes": 4333,
+      "sha256": "ad1a6c47e22022d31e5f67bf9fcea59db98343efb3490d89f07217c10c212aee"
+    }
+  ],
+  "scope": "Artifact packaging only; no EAP or ALB runtime verification"
+}

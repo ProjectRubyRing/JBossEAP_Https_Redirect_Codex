@@ -1,0 +1,13 @@
+{
+  "status": "UNAVAILABLE",
+  "hresult": "0x80080005",
+  "reason": "Excel.Application COM server could not be started in this environment",
+  "native_workbook_open_completed": false,
+  "native_print_or_pdf_export_completed": false,
+  "alternative_checks": [
+    "XLSX structure and font validation using openpyxl and OOXML",
+    "Pillow rendering from actual workbook cells with installed Meiryo UI"
+  ],
+  "record_basis": "Actual earlier inspect_excel.py attempt; no repeated COM attempt",
+  "scope": "Deliverable validation only; no EAP or ALB runtime verification"
+}

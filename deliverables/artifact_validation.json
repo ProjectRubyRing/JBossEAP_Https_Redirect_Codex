@@ -1,0 +1,120 @@
+{
+  "results": [
+    {
+      "check": "XLSX ZIP integrity",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "20 chapter worksheets",
+      "result": "PASS",
+      "detail": "20"
+    },
+    {
+      "check": "All workbook fonts including comments are Meiryo UI",
+      "result": "PASS",
+      "detail": "['Meiryo UI']"
+    },
+    {
+      "check": "Explicit style colors are grayscale",
+      "result": "PASS",
+      "detail": "['00000000', 'FF222222', 'FF252525', 'FF444444', 'FF474747', 'FF555555', 'FFA0A0A0', 'FFB0B0B0', 'FFC9C9C9', 'FFD0D0D0', 'FFDADADA', 'FFDDDDDD', 'FFE8E8E8', 'FFEFEFEF', 'FFF0F0F0', 'FFF2F2F2', 'FFF5F5F5', 'FFF6F6F6', 'FFFFFFFF']"
+    },
+    {
+      "check": "Literal code / no formulas",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No Unicode replacement characters",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All nonempty cells have Meiryo UI",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All nonempty cells wrap",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All chapters freeze top four rows",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All chapters use landscape A4",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All chapters define print areas",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All chapters fit width, allow multiple pages vertically",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Explicit row heights within Excel limit",
+      "result": "PASS",
+      "detail": "maximum=96.25pt"
+    },
+    {
+      "check": "Diagram embedded in principles chapter",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Diagram file exists for Markdown",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "30 primary source definitions",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No undefined source references",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Source URLs available as native Excel hyperlinks",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Markdown paragraphs, tables and code fully represented in Excel",
+      "result": "PASS",
+      "detail": "checked=1178 items, missing=0"
+    },
+    {
+      "check": "Scripts and Markdown are valid UTF-8",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "CLI and Linux scripts use LF without BOM",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No unintended trailing whitespace",
+      "result": "PASS",
+      "detail": "[]"
+    },
+    {
+      "check": "PowerShell path comparison respects case-sensitive URI paths",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "scope": "Local deliverables only; no EAP or ALB runtime test"
+}

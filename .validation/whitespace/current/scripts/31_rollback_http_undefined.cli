@@ -1,0 +1,5 @@
+# ROLLBACK ONLY IF the attribute was undefined before the change.
+# Restores the original representation rather than writing explicit false.
+/subsystem=undertow/server=default-server/http-listener=default:undefine-attribute(name=proxy-address-forwarding)
+/subsystem=undertow/server=default-server/http-listener=default:read-resource(include-defaults=false)
+:read-attribute(name=server-state)

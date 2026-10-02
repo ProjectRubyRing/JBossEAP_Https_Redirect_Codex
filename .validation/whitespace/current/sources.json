@@ -1,0 +1,122 @@
+{
+  "S01": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/configuration_guide/reference_material",
+    "title": "Red Hat EAP 8.1 Undertow reference"
+  },
+  "S02": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/x-forwarded-headers.html",
+    "title": "AWS ALB X-Forwarded headers"
+  },
+  "S03": {
+    "url": "https://github.com/undertow-io/undertow/blob/2.3.18.Final/core/src/main/java/io/undertow/server/handlers/ProxyPeerAddressHandler.java",
+    "title": "Undertow ProxyPeerAddressHandler 2.3.18.Final"
+  },
+  "S04": {
+    "url": "https://github.com/undertow-io/undertow/blob/2.3.18.Final/servlet/src/main/java/io/undertow/servlet/spec/HttpServletResponseImpl.java",
+    "title": "Undertow HttpServletResponseImpl 2.3.18.Final"
+  },
+  "S05": {
+    "url": "https://github.com/undertow-io/undertow/blob/2.3.18.Final/core/src/main/java/io/undertow/server/HttpServerExchange.java",
+    "title": "Undertow HttpServerExchange 2.3.18.Final"
+  },
+  "S06": {
+    "url": "https://jakarta.ee/specifications/servlet/6.0/apidocs/jakarta.servlet/jakarta/servlet/http/httpservletresponse",
+    "title": "Jakarta Servlet 6.0 HttpServletResponse"
+  },
+  "S07": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/configuration_guide/eap-mgmt-overview_default",
+    "title": "Red Hat EAP 8.1 management"
+  },
+  "S08": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/7.4/html-single/management_cli_guide/index",
+    "title": "Red Hat management CLI common guide"
+  },
+  "S09": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html/using_jboss_eap_on_openshift_container_platform/assembly_reference-information-for-openshift-container-platform_default",
+    "title": "Red Hat EAP 8.1 OpenShift reference"
+  },
+  "S10": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/edit-load-balancer-attributes.html",
+    "title": "AWS ALB host preservation"
+  },
+  "S11": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-update-security-groups.html",
+    "title": "AWS ALB security groups"
+  },
+  "S12": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-action-types.html",
+    "title": "AWS ALB listener action types"
+  },
+  "S13": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html",
+    "title": "AWS ALB access logs"
+  },
+  "S14": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-transforms.html",
+    "title": "AWS ALB rule transforms"
+  },
+  "S15": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/header-modification.html",
+    "title": "AWS ALB header modification"
+  },
+  "S16": {
+    "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_SingleHeader.html",
+    "title": "AWS WAF SingleHeader"
+  },
+  "S17": {
+    "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_SizeConstraintStatement.html",
+    "title": "AWS WAF SizeConstraintStatement"
+  },
+  "S18": {
+    "url": "https://www.rfc-editor.org/rfc/rfc7239.html",
+    "title": "RFC 7239 Forwarded"
+  },
+  "S19": {
+    "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+    "title": "RFC 9110 HTTP Semantics"
+  },
+  "S20": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/7.0/html-single/migration_guide/migration_guide",
+    "title": "Red Hat EAP 7 migration"
+  },
+  "S21": {
+    "url": "https://www.redhat.com/en/about/press-releases/red-hat-delivers-jboss-eap-7-foundation-hybrid-cloud-applications",
+    "title": "Red Hat EAP 7 announcement"
+  },
+  "S22": {
+    "url": "https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/",
+    "title": "AWS ALB announcement"
+  },
+  "S23": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.0/html-single/release_notes_for_red_hat_jboss_enterprise_application_platform_8.0/release_notes_for_red_hat_jboss_enterprise_application_platform_8.0",
+    "title": "EAP 8 Jakarta EE 10 support"
+  },
+  "S24": {
+    "url": "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1",
+    "title": "Red Hat EAP 8.1 document list"
+  },
+  "S25": {
+    "url": "https://access.redhat.com/articles/7145683",
+    "title": "EAP 8.1 Update 7.1 public metadata"
+  },
+  "S26": {
+    "url": "https://access.redhat.com/webassets/avalon/d/red_hat_jboss_enterprise_application_platform/7.4/mgmt_model/socket-binding-group/socket-binding/index.html",
+    "title": "Red Hat socket-binding common model"
+  },
+  "S27": {
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/target-group-health-checks.html",
+    "title": "AWS ALB target health checks"
+  },
+  "S28": {
+    "url": "https://www.rfc-editor.org/rfc/rfc2616.html#section-14.30",
+    "title": "RFC 2616 historical Location"
+  },
+  "S29": {
+    "url": "https://www.rfc-editor.org/rfc/rfc7231.html#section-7.1.2",
+    "title": "RFC 7231 Location URI-reference"
+  },
+  "S30": {
+    "url": "https://docs.aws.amazon.com/waf/latest/APIReference/API_Body.html",
+    "title": "AWS WAF body inspection and oversize handling"
+  }
+}

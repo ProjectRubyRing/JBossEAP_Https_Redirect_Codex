@@ -1,0 +1,5 @@
+# ROLLBACK ONLY IF the attribute was explicitly false before the change.
+# If it was undefined, use 31_rollback_http_undefined.cli instead.
+/subsystem=undertow/server=default-server/http-listener=default:write-attribute(name=proxy-address-forwarding,value=false)
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=proxy-address-forwarding)
+:read-attribute(name=server-state)

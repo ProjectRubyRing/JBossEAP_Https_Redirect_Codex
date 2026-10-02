@@ -1,0 +1,3 @@
+# Writes a configuration snapshot; no runtime configuration is changed.
+# Keep the snapshot protected because the configuration may contain secrets.
+:take-snapshot

@@ -1,0 +1,9 @@
+# CHANGE. For ALB -> HTTP -> EAP, after verifying the trust boundary.
+# Replace default-server/default with the discovered names.
+# Repeating this file does not rewrite an already-true value.
+# Reload is intentionally a separate operation.
+if (result != true) of /subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=proxy-address-forwarding)
+    /subsystem=undertow/server=default-server/http-listener=default:write-attribute(name=proxy-address-forwarding,value=true)
+end-if
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=proxy-address-forwarding)
+:read-attribute(name=server-state)

@@ -1,0 +1,8 @@
+# OPTIONAL CHANGE. Only for an ALB HTTPS target group / EAP HTTPS listener.
+# Do not run this file for an HTTP target group.
+# Replace default-server/https with the discovered names.
+if (result != true) of /subsystem=undertow/server=default-server/https-listener=https:read-attribute(name=proxy-address-forwarding)
+    /subsystem=undertow/server=default-server/https-listener=https:write-attribute(name=proxy-address-forwarding,value=true)
+end-if
+/subsystem=undertow/server=default-server/https-listener=https:read-attribute(name=proxy-address-forwarding)
+:read-attribute(name=server-state)

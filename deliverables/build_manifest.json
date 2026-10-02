@@ -1,0 +1,169 @@
+{
+  "font": "Meiryo UI",
+  "palette": "monochrome",
+  "sheets": [
+    {
+      "sheet": "00_表紙と目次",
+      "chapter": "表紙と目次",
+      "rows": 31,
+      "text_blocks": 4,
+      "table_data_rows": 0,
+      "citation_links": 0
+    },
+    {
+      "sheet": "01_結論",
+      "chapter": "01 結論と対応の選び方",
+      "rows": 31,
+      "text_blocks": 8,
+      "table_data_rows": 9,
+      "citation_links": 5
+    },
+    {
+      "sheet": "02_事実と未確認",
+      "chapter": "02 確認済みの事実と未確認事項",
+      "rows": 30,
+      "text_blocks": 3,
+      "table_data_rows": 13,
+      "citation_links": 0
+    },
+    {
+      "sheet": "03_原理と通信図",
+      "chapter": "03 小学生にも分かる動作原理と通信図",
+      "rows": 79,
+      "text_blocks": 12,
+      "table_data_rows": 4,
+      "citation_links": 2
+    },
+    {
+      "sheet": "04_歴史と背景",
+      "chapter": "04 登場の歴史・背景と、なぜ必要になったのか",
+      "rows": 28,
+      "text_blocks": 7,
+      "table_data_rows": 7,
+      "citation_links": 21
+    },
+    {
+      "sheet": "05_原因調査",
+      "chapter": "05 原因を確定する調査手順",
+      "rows": 42,
+      "text_blocks": 6,
+      "table_data_rows": 14,
+      "citation_links": 2
+    },
+    {
+      "sheet": "06_ALBの確認",
+      "chapter": "06 ALB 側の確認事項",
+      "rows": 50,
+      "text_blocks": 12,
+      "table_data_rows": 13,
+      "citation_links": 9
+    },
+    {
+      "sheet": "07_Undertow設定",
+      "chapter": "07 Undertow の設定と反映原理",
+      "rows": 52,
+      "text_blocks": 11,
+      "table_data_rows": 10,
+      "citation_links": 12
+    },
+    {
+      "sheet": "08_稼働中のCLI",
+      "chapter": "08 起動中のコンテナで jboss-cli により設定する",
+      "rows": 96,
+      "text_blocks": 20,
+      "table_data_rows": 3,
+      "citation_links": 5
+    },
+    {
+      "sheet": "09_起動前の実装",
+      "chapter": "09 起動前のコンテナ設定を実装する",
+      "rows": 56,
+      "text_blocks": 9,
+      "table_data_rows": 15,
+      "citation_links": 1
+    },
+    {
+      "sheet": "10_恒久化",
+      "chapter": "10 コンテナ再作成後も設定を維持する",
+      "rows": 42,
+      "text_blocks": 10,
+      "table_data_rows": 6,
+      "citation_links": 1
+    },
+    {
+      "sheet": "11_独自フィルタ",
+      "chapter": "11 独自フィルタで確認・修正する内容",
+      "rows": 49,
+      "text_blocks": 13,
+      "table_data_rows": 4,
+      "citation_links": 4
+    },
+    {
+      "sheet": "12_redirect_socket",
+      "chapter": "12 redirect-socket が必要になる場合の追加設定",
+      "rows": 29,
+      "text_blocks": 7,
+      "table_data_rows": 3,
+      "citation_links": 2
+    },
+    {
+      "sheet": "13_検証手順",
+      "chapter": "13 検証手順と合格基準",
+      "rows": 60,
+      "text_blocks": 11,
+      "table_data_rows": 14,
+      "citation_links": 1
+    },
+    {
+      "sheet": "14_適用と切り戻し",
+      "chapter": "14 適用手順・影響範囲・切り戻し",
+      "rows": 50,
+      "text_blocks": 10,
+      "table_data_rows": 8,
+      "citation_links": 0
+    },
+    {
+      "sheet": "15_疑問と誤解",
+      "chapter": "15 よくある疑問と誤解",
+      "rows": 24,
+      "text_blocks": 2,
+      "table_data_rows": 16,
+      "citation_links": 2
+    },
+    {
+      "sheet": "16_用語集",
+      "chapter": "16 用語をやさしく説明する",
+      "rows": 31,
+      "text_blocks": 0,
+      "table_data_rows": 25,
+      "citation_links": 0
+    },
+    {
+      "sheet": "17_実装ファイル",
+      "chapter": "17 添付実装の一覧と利用順序",
+      "rows": 20,
+      "text_blocks": 2,
+      "table_data_rows": 12,
+      "citation_links": 0
+    },
+    {
+      "sheet": "18_出典",
+      "chapter": "18 出典と根拠の使い分け",
+      "rows": 47,
+      "text_blocks": 5,
+      "table_data_rows": 30,
+      "citation_links": 30
+    },
+    {
+      "sheet": "19_確認範囲",
+      "chapter": "19 この成果物で実施した確認と、実環境で残る確認",
+      "rows": 21,
+      "text_blocks": 4,
+      "table_data_rows": 5,
+      "citation_links": 0
+    }
+  ],
+  "markdown_characters": 52120,
+  "source_count": 30,
+  "workbook": "JBossEAP81_ALB_HTTPS_Redirect_Report.xlsx"
+}

@@ -1,0 +1,10 @@
+# READ ONLY. Replace default-server/default with the discovered names.
+/subsystem=undertow/server=default-server:read-children-names(child-type=http-listener)
+/subsystem=undertow/server=default-server:read-children-names(child-type=https-listener)
+/subsystem=undertow/server=default-server/http-listener=default:read-resource(include-defaults=false)
+/subsystem=undertow/server=default-server/http-listener=default:read-resource-description
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=proxy-address-forwarding)
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=socket-binding)
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=redirect-socket)
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=secure)
+/subsystem=undertow/server=default-server/http-listener=default:read-attribute(name=max-post-size)

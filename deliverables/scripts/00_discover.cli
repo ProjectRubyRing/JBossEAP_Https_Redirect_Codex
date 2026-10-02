@@ -1,0 +1,9 @@
+# READ ONLY. Run against a standalone EAP server.
+# Discover actual names before using the other example files.
+:read-attribute(name=product-name)
+:read-attribute(name=product-version)
+:read-attribute(name=launch-type)
+:read-attribute(name=server-state)
+/core-service=server-environment:read-attribute(name=config-file)
+/subsystem=undertow:read-children-names(child-type=server)
+:read-children-names(child-type=socket-binding-group)
